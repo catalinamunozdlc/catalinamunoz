@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalina Muñoz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #000000;
+        }
+        
+        .bio {
+            font-size: 1.1rem;
+            color: #4a4a4a;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+        
+        .links {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .links a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            padding: 12px 24px;
+            border: 2px solid #000000;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .links a:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .bio {
+                font-size: 1rem;
+            }
+            
+            .links {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="Catalina Muñoz" class="profile-image">
+        <h1>Catalina Muñoz</h1>
+        <p class="bio">Marketing professional transitioning to strategy and innovation consulting. Currently completing MSc Creative Industries at University of Edinburgh.</p>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/catalinamunozdlc" target="_blank">LinkedIn</a>
+            <a href="mailto:catalinamunoz7@gmail.com">Email</a>
+        </div>
+    </div>
+</body>
+</html>
